@@ -12,7 +12,7 @@ body {
 
 .gallery-parent {
   margin: 0 auto;
-  height: 60rem;
+  height: 40rem;
   width: 40rem;
 }
 
@@ -39,8 +39,8 @@ body {
 }
 
 .mustard {
-  top: 4rem;
-  left: 65%;
+  top: 3.5rem;
+  left: 70%;
 }
 
 .gal-photo:hover {
@@ -53,6 +53,45 @@ body {
 .gallery:hover .gal-photo:not(:hover) {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  opacity: 0.3;
+  opacity: 0.5;
+}
+
+.button-parent {
+  margin: 0 auto;
+  height: 20rem;
+  width: 40rem;
+}
+
+.button {
+  position: relative;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: antiquewhite;
+  -webkit-transform: scale(4);
+          transform: scale(4);
+}
+
+.computer-parent {
+  margin: 0 auto;
+  height: 40rem;
+  width: 40rem;
+}
+
+.computer-img {
+  position: relative;
+  height: 40rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.computer-img:hover {
+  -webkit-filter: sepia();
+          filter: sepia();
+  translate: scale(1.5);
 }
 /*# sourceMappingURL=style.css.map */
