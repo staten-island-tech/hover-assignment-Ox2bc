@@ -7,6 +7,10 @@ html {
 body {
     text-align: center;
 }
+
+.break{
+    height: 10rem;
+}
 .gallery-parent {
     //text-align: center;
     margin: 0 auto;
@@ -77,4 +81,37 @@ body {
 .computer-img:hover{
     filter: sepia();
     translate: scale(1.5);
+}
+
+.leaf-parent{
+    margin: 0 auto;
+    height: 40rem;
+    width: 40rem;
+}
+.leaf-img{
+    position: relative;
+    height: 30rem;
+    transition: all 0.3s;
+}
+
+.leaf-img:hover{
+    border-radius: 25rem;
+    transform: scale(1.3);
+}
+
+.button-parent-2{
+    margin: 0 auto;
+    height: 15rem;
+    width: 40rem;
+}
+
+.button-2{
+    position: relative;
+    height: 30rem;
+    transition: all 0.3s;
+    border-radius: 15rem;
+}
+
+.button-2:hover{
+    transform: transformX(15rem);
 }
