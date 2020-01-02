@@ -108,10 +108,14 @@ body {
 .button-2{
     position: relative;
     height: 30rem;
-    transition: all 0.3s;
-    border-radius: 15rem;
+    transition: all 1s;
+    border-radius: 20rem;
 }
 
 .button-2:hover{
-    transform: transformX(15rem);
+    transform: rotate(360deg);
+}
+
+.space{
+    height: 20rem;
 }

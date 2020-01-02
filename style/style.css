@@ -127,13 +127,17 @@ body {
 .button-2 {
   position: relative;
   height: 30rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border-radius: 15rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-radius: 20rem;
 }
 
 .button-2:hover {
-  -webkit-transform: transformX(15rem);
-          transform: transformX(15rem);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.space {
+  height: 20rem;
 }
 /*# sourceMappingURL=style.css.map */
