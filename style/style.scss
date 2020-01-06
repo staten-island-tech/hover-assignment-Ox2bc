@@ -119,3 +119,13 @@ body {
 .space{
     height: 20rem;
 }
+
+@keyframes animation {
+    from {background-color: aqua;}
+    to {background-color: red;}
+}
+
+.ani{
+    animation-name: animation;
+    animation-duration: 3s;
+}

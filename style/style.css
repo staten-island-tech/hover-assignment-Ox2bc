@@ -140,4 +140,29 @@ body {
 .space {
   height: 20rem;
 }
+
+@-webkit-keyframes animation {
+  from {
+    background-color: aqua;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes animation {
+  from {
+    background-color: aqua;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+.ani {
+  -webkit-animation-name: animation;
+          animation-name: animation;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
 /*# sourceMappingURL=style.css.map */
