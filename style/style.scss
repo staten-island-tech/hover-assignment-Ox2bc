@@ -121,11 +121,22 @@ body {
 }
 
 @keyframes animation {
-    from {background-color: aqua;}
-    to {background-color: red;}
+    0% {
+        background-color: aqua;
+        color: red;
+        border: 1rem solid red;
+    }
+    100% {
+        background-color: red;
+        color: aqua;
+        border: 1rem solid aqua;
+    }
 }
 
 .ani{
+    height: 10rem;
+    font-size: 3rem;
     animation-name: animation;
     animation-duration: 3s;
+    border-radius: 15rem;
 }

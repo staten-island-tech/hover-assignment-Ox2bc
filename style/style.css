@@ -142,27 +142,38 @@ body {
 }
 
 @-webkit-keyframes animation {
-  from {
+  0% {
     background-color: aqua;
+    color: red;
+    border: 1rem solid red;
   }
-  to {
+  100% {
     background-color: red;
+    color: aqua;
+    border: 1rem solid aqua;
   }
 }
 
 @keyframes animation {
-  from {
+  0% {
     background-color: aqua;
+    color: red;
+    border: 1rem solid red;
   }
-  to {
+  100% {
     background-color: red;
+    color: aqua;
+    border: 1rem solid aqua;
   }
 }
 
 .ani {
+  height: 10rem;
+  font-size: 3rem;
   -webkit-animation-name: animation;
           animation-name: animation;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
+  border-radius: 15rem;
 }
 /*# sourceMappingURL=style.css.map */
